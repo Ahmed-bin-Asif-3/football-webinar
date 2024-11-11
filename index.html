@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Football Webinar</title>
+    <!-- Link fav icon here -->
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+    <!-- slick style sheet link here -->
+    <link rel="stylesheet" href="./css/slick-theme.css">
+    <link rel="stylesheet" href="./css/slick.css">
+    <!-- Link fon awsome file here  -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <!-- Link fon styles here -->
+    <link rel="stylesheet" href="./css/font.css">
+    <!-- link main css file  -->
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<body>
+    <!-- header nav starts here  -->
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <a href="#" class="brand">
+                    <img src="./images/logo.svg" alt="brand">
+                </a>
+                <a href="#" id="loginbtn" class="primary-btn">Login</a>
+            </nav>
+        </div>
+    </header>
+    <!-- banner hero section starts here -->
+    <section class="banner">
+        <div class="container">
+            <div class="banner-inner">
+                <div class="banner-left">
+                    <h1 class="primary-heading">Invest In <span class="text-color-green">Knowledge</span>, Be A <span
+                            class="text-color-green">Pro</span> In The <span class="text-color-green">Field!</span></h1>
+                    <p class="banner-intro">
+                        Fascinating webinars with top football mentors and coaches!
+                    </p>
+                    <a href="#" class="primary-btn">Subscribe Now</a>
+                </div>
+                <div class="banner-img-col">
+                    <img src="./images/football.svg" alt="football">
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- upcomming webinar section starts here  -->
+    <section class="upcomming-webinar">
+        <div class="container">
+            <h2 class="secondry-heading is-center">Upcoming webinars</h2>
+            <div class="upcomming-grid">
+                <div class="webinar-card">
+                    <div class="card-img-wrapper">
+                        <img src="./images/up-webinar1.png" alt="webinar-img">
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">Player's Pathways To Professional Football With Dominic Haynes</h4>
+                        <span class="card-sub-heading">About The Webinar</span>
+                        <p class="card-para">
+                            Dominic is a UEFA A licence coach. He runs the Football Coaching & Talent
+                            Development degree at UCFB Wembley Dominic is a UEFA A licence coach. He runs the Football
+                            Coaching & Talent Development degree at UCFB Wembley...
+                        </p>
+                        <a href="#" class="read-btn">Read more</a>
+                        <div class="webinar-subject-row">
+                            <span class="webinar-subject">player development</span>
+                            <span class="webinar-subject">management</span>
+                            <span class="webinar-subject">coaches</span>
+                            <span class="webinar-subject">managers</span>
+                        </div>
+                        <span class="card-note">To watch the webinar <a href="#">login</a> to your account.</span>
+                    </div>
+                </div>
+                <div class="webinar-card">
+                    <div class="card-img-wrapper">
+                        <img src="./images/up-webinar2.png" alt="webinar-img">
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">Player's Pathways To Professional Football With Dominic Haynes</h4>
+                        <span class="card-sub-heading">About The Webinar</span>
+                        <p class="card-para">
+                            Dominic is a UEFA A licence coach. He runs the Football Coaching & Talent
+                            Development degree at UCFB Wembley Dominic is a UEFA A licence coach. He runs the Football
+                            Coaching & Talent Development degree at UCFB Wembley...
+                        </p>
+                        <a href="#" class="read-btn">Read more</a>
+                        <div class="webinar-subject-row">
+                            <span class="webinar-subject">player development</span>
+                            <span class="webinar-subject">management</span>
+                            <span class="webinar-subject">coaches</span>
+                            <span class="webinar-subject">managers</span>
+                        </div>
+                        <span class="card-note">To watch the webinar <a href="#">login</a> to your account.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--  new feature section starts here  -->
+    <section class="new-feature">
+        <div class="container">
+            <h2 class="primary-heading">New Feature - Subtitles!</h2>
+            <p class="feature-text">Contact us to add subtitles in any language to any webinar!</p>
+        </div>
+    </section>
+    <!-- Webinar section starts here  -->
+    <section class="webinar">
+        <div class="container">
+            <div class="webinar-heading-row">
+                <h2 class="secondry-heading">Webinars</h2>
+                <div class="filter-container">
+                    <span class="filter-label">Filter by</span>
+                    
+                    <!-- Subjects Dropdown -->
+                    <div class="dropdown">
+                        <button class="dropdown-button" onclick="toggleDropdown('subjectsDropdown')">
+                            Subjects <i class="fa-solid fa-chevron-down"></i>
+                        </button>
+                        <div class="dropdown-content" id="subjectsDropdown">
+                            <a href="#">Math</a>
+                            <a href="#">Science</a>
+                            <a href="#">History</a>
+                            <!-- Add more items as needed -->
+                        </div>
+                    </div>
+                    <!-- Audience Dropdown -->
+                    <div class="dropdown">
+                        <button class="dropdown-button" onclick="toggleDropdown('audienceDropdown')">
+                            Audience <i class="fa-solid fa-chevron-down"></i>
+                        </button>
+                        <div class="dropdown-content" id="audienceDropdown">
+                            <a href="#">Students</a>
+                            <a href="#">Teachers</a>
+                            <a href="#">Parents</a>
+                            <!-- Add more items as needed -->
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="webinar-row">
+                <div class="webinar-card">
+                    <div class="card-img-wrapper">
+                        <img src="./images/webinar1.png" alt="webinar-img">
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">Player's Pathways To Professional Football With Dominic Haynes</h4>
+                        <p class="card-para">
+                            Dominic is a UEFA A licence coach. He runs the Football Coaching & Talent
+                            Development degree at UCFB Wembley Dominic is a UEFA A licence coach. He runs the Football
+                            Coaching & Talent Development degree at UCFB Wembley...
+                        </p>
+                        <a href="#" class="read-btn">Read more</a>
+                        <div class="webinar-subject-row">
+                            <span class="webinar-subject">player development</span>
+                            <span class="webinar-subject">management</span>
+                            <span class="webinar-subject">coaches</span>
+                            <span class="webinar-subject">managers</span>
+                        </div>
+                        <span class="card-note">To watch the webinar <a href="#">login</a> to your account.</span>
+                    </div>
+                </div>
+                <div class="webinar-card">
+                    <div class="card-img-wrapper">
+                        <img src="./images/webinar2.png" alt="webinar-img">
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">Player's Pathways To Professional Football With Dominic Haynes</h4>
+                        <p class="card-para">
+                            Dominic is a UEFA A licence coach. He runs the Football Coaching & Talent
+                            Development degree at UCFB Wembley Dominic is a UEFA A licence coach. He runs the Football
+                            Coaching & Talent Development degree at UCFB Wembley...
+                        </p>
+                        <a href="#" class="read-btn">Read more</a>
+                        <div class="webinar-subject-row">
+                            <span class="webinar-subject">player development</span>
+                            <span class="webinar-subject">management</span>
+                            <span class="webinar-subject">coaches</span>
+                            <span class="webinar-subject">managers</span>
+                        </div>
+                        <span class="card-note">To watch the webinar <a href="#">login</a> to your account.</span>
+                    </div>
+                </div>
+                <div class="webinar-card">
+                    <div class="card-img-wrapper">
+                        <img src="./images/webinar3.png" alt="webinar-img">
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">Player's Pathways To Professional Football With Dominic Haynes</h4>
+                        <p class="card-para">
+                            Dominic is a UEFA A licence coach. He runs the Football Coaching & Talent
+                            Development degree at UCFB Wembley Dominic is a UEFA A licence coach. He runs the Football
+                            Coaching & Talent Development degree at UCFB Wembley...
+                        </p>
+                        <a href="#" class="read-btn">Read more</a>
+                        <div class="webinar-subject-row">
+                            <span class="webinar-subject">player development</span>
+                            <span class="webinar-subject">management</span>
+                            <span class="webinar-subject">coaches</span>
+                            <span class="webinar-subject">managers</span>
+                        </div>
+                        <span class="card-note">To watch the webinar <a href="#">login</a> to your account.</span>
+                    </div>
+                </div>
+                <div class="webinar-card">
+                    <div class="card-img-wrapper">
+                        <img src="./images/webinar4.png" alt="webinar-img">
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">Player's Pathways To Professional Football With Dominic Haynes</h4>
+                        <p class="card-para">
+                            Dominic is a UEFA A licence coach. He runs the Football Coaching & Talent
+                            Development degree at UCFB Wembley Dominic is a UEFA A licence coach. He runs the Football
+                            Coaching & Talent Development degree at UCFB Wembley...
+                        </p>
+                        <a href="#" class="read-btn">Read more</a>
+                        <div class="webinar-subject-row">
+                            <span class="webinar-subject">player development</span>
+                            <span class="webinar-subject">management</span>
+                            <span class="webinar-subject">coaches</span>
+                            <span class="webinar-subject">managers</span>
+                        </div>
+                        <span class="card-note">To watch the webinar <a href="#">login</a> to your account.</span>
+                    </div>
+                </div>
+                <div class="webinar-card">
+                    <div class="card-img-wrapper">
+                        <img src="./images/webinar5.png" alt="webinar-img">
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">Player's Pathways To Professional Football With Dominic Haynes</h4>
+                        <p class="card-para">
+                            Dominic is a UEFA A licence coach. He runs the Football Coaching & Talent
+                            Development degree at UCFB Wembley Dominic is a UEFA A licence coach. He runs the Football
+                            Coaching & Talent Development degree at UCFB Wembley...
+                        </p>
+                        <a href="#" class="read-btn">Read more</a>
+                        <div class="webinar-subject-row">
+                            <span class="webinar-subject">player development</span>
+                            <span class="webinar-subject">management</span>
+                            <span class="webinar-subject">coaches</span>
+                            <span class="webinar-subject">managers</span>
+                        </div>
+                        <span class="card-note">To watch the webinar <a href="#">login</a> to your account.</span>
+                    </div>
+                </div>
+                <div class="webinar-card">
+                    <div class="card-img-wrapper">
+                        <img src="./images/webinar6.png" alt="webinar-img">
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">Player's Pathways To Professional Football With Dominic Haynes</h4>
+                        <p class="card-para">
+                            Dominic is a UEFA A licence coach. He runs the Football Coaching & Talent
+                            Development degree at UCFB Wembley Dominic is a UEFA A licence coach. He runs the Football
+                            Coaching & Talent Development degree at UCFB Wembley...
+                        </p>
+                        <a href="#" class="read-btn">Read more</a>
+                        <div class="webinar-subject-row">
+                            <span class="webinar-subject">player development</span>
+                            <span class="webinar-subject">management</span>
+                            <span class="webinar-subject">coaches</span>
+                            <span class="webinar-subject">managers</span>
+                        </div>
+                        <span class="card-note">To watch the webinar <a href="#">login</a> to your account.</span>
+                    </div>
+                </div>
+                <div class="webinar-card">
+                    <div class="card-img-wrapper">
+                        <img src="./images/webinar7.png" alt="webinar-img">
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">Player's Pathways To Professional Football With Dominic Haynes</h4>
+                        <p class="card-para">
+                            Dominic is a UEFA A licence coach. He runs the Football Coaching & Talent
+                            Development degree at UCFB Wembley Dominic is a UEFA A licence coach. He runs the Football
+                            Coaching & Talent Development degree at UCFB Wembley...
+                        </p>
+                        <a href="#" class="read-btn">Read more</a>
+                        <div class="webinar-subject-row">
+                            <span class="webinar-subject">player development</span>
+                            <span class="webinar-subject">management</span>
+                            <span class="webinar-subject">coaches</span>
+                            <span class="webinar-subject">managers</span>
+                        </div>
+                        <span class="card-note">To watch the webinar <a href="#">login</a> to your account.</span>
+                    </div>
+                </div>
+                <div class="webinar-card">
+                    <div class="card-img-wrapper">
+                        <img src="./images/webinar8.png" alt="webinar-img">
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">Player's Pathways To Professional Football With Dominic Haynes</h4>
+                        <p class="card-para">
+                            Dominic is a UEFA A licence coach. He runs the Football Coaching & Talent
+                            Development degree at UCFB Wembley Dominic is a UEFA A licence coach. He runs the Football
+                            Coaching & Talent Development degree at UCFB Wembley...
+                        </p>
+                        <a href="#" class="read-btn">Read more</a>
+                        <div class="webinar-subject-row">
+                            <span class="webinar-subject">player development</span>
+                            <span class="webinar-subject">management</span>
+                            <span class="webinar-subject">coaches</span>
+                            <span class="webinar-subject">managers</span>
+                        </div>
+                        <span class="card-note">To watch the webinar <a href="#">login</a> to your account.</span>
+                    </div>
+                </div>
+                <div class="webinar-card">
+                    <div class="card-img-wrapper">
+                        <img src="./images/webinar9.png" alt="webinar-img">
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">Player's Pathways To Professional Football With Dominic Haynes</h4>
+                        <p class="card-para">
+                            Dominic is a UEFA A licence coach. He runs the Football Coaching & Talent
+                            Development degree at UCFB Wembley Dominic is a UEFA A licence coach. He runs the Football
+                            Coaching & Talent Development degree at UCFB Wembley...
+                        </p>
+                        <a href="#" class="read-btn">Read more</a>
+                        <div class="webinar-subject-row">
+                            <span class="webinar-subject">player development</span>
+                            <span class="webinar-subject">management</span>
+                            <span class="webinar-subject">coaches</span>
+                            <span class="webinar-subject">managers</span>
+                        </div>
+                        <span class="card-note">To watch the webinar <a href="#">login</a> to your account.</span>
+                    </div>
+                </div>
+                <div class="webinar-card">
+                    <div class="card-img-wrapper">
+                        <img src="./images/webinar10.png" alt="webinar-img">
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">Player's Pathways To Professional Football With Dominic Haynes</h4>
+                        <p class="card-para">
+                            Dominic is a UEFA A licence coach. He runs the Football Coaching & Talent
+                            Development degree at UCFB Wembley Dominic is a UEFA A licence coach. He runs the Football
+                            Coaching & Talent Development degree at UCFB Wembley...
+                        </p>
+                        <a href="#" class="read-btn">Read more</a>
+                        <div class="webinar-subject-row">
+                            <span class="webinar-subject">player development</span>
+                            <span class="webinar-subject">management</span>
+                            <span class="webinar-subject">coaches</span>
+                            <span class="webinar-subject">managers</span>
+                        </div>
+                        <span class="card-note">To watch the webinar <a href="#">login</a> to your account.</span>
+                    </div>
+                </div>
+                <div class="webinar-card">
+                    <div class="card-img-wrapper">
+                        <img src="./images/webinar11.png" alt="webinar-img">
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">Player's Pathways To Professional Football With Dominic Haynes</h4>
+                        <p class="card-para">
+                            Dominic is a UEFA A licence coach. He runs the Football Coaching & Talent
+                            Development degree at UCFB Wembley Dominic is a UEFA A licence coach. He runs the Football
+                            Coaching & Talent Development degree at UCFB Wembley...
+                        </p>
+                        <a href="#" class="read-btn">Read more</a>
+                        <div class="webinar-subject-row">
+                            <span class="webinar-subject">player development</span>
+                            <span class="webinar-subject">management</span>
+                            <span class="webinar-subject">coaches</span>
+                            <span class="webinar-subject">managers</span>
+                        </div>
+                        <span class="card-note">To watch the webinar <a href="#">login</a> to your account.</span>
+                    </div>
+                </div>
+                <div class="webinar-card">
+                    <div class="card-img-wrapper">
+                        <img src="./images/webinar12.png" alt="webinar-img">
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">Player's Pathways To Professional Football With Dominic Haynes</h4>
+                        <p class="card-para">
+                            Dominic is a UEFA A licence coach. He runs the Football Coaching & Talent
+                            Development degree at UCFB Wembley Dominic is a UEFA A licence coach. He runs the Football
+                            Coaching & Talent Development degree at UCFB Wembley...
+                        </p>
+                        <a href="#" class="read-btn">Read more</a>
+                        <div class="webinar-subject-row">
+                            <span class="webinar-subject">player development</span>
+                            <span class="webinar-subject">management</span>
+                            <span class="webinar-subject">coaches</span>
+                            <span class="webinar-subject">managers</span>
+                        </div>
+                        <span class="card-note">To watch the webinar <a href="#">login</a> to your account.</span>
+                    </div>
+                </div>
+                <div class="webinar-card">
+                    <div class="card-img-wrapper">
+                        <img src="./images/webinar13.png" alt="webinar-img">
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">Player's Pathways To Professional Football With Dominic Haynes</h4>
+                        <p class="card-para">
+                            Dominic is a UEFA A licence coach. He runs the Football Coaching & Talent
+                            Development degree at UCFB Wembley Dominic is a UEFA A licence coach. He runs the Football
+                            Coaching & Talent Development degree at UCFB Wembley...
+                        </p>
+                        <a href="#" class="read-btn">Read more</a>
+                        <div class="webinar-subject-row">
+                            <span class="webinar-subject">player development</span>
+                            <span class="webinar-subject">management</span>
+                            <span class="webinar-subject">coaches</span>
+                            <span class="webinar-subject">managers</span>
+                        </div>
+                        <span class="card-note">To watch the webinar <a href="#">login</a> to your account.</span>
+                    </div>
+                </div>
+                <div class="webinar-card">
+                    <div class="card-img-wrapper">
+                        <img src="./images/webinar14.png" alt="webinar-img">
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">Player's Pathways To Professional Football With Dominic Haynes</h4>
+                        <p class="card-para">
+                            Dominic is a UEFA A licence coach. He runs the Football Coaching & Talent
+                            Development degree at UCFB Wembley Dominic is a UEFA A licence coach. He runs the Football
+                            Coaching & Talent Development degree at UCFB Wembley...
+                        </p>
+                        <a href="#" class="read-btn">Read more</a>
+                        <div class="webinar-subject-row">
+                            <span class="webinar-subject">player development</span>
+                            <span class="webinar-subject">management</span>
+                            <span class="webinar-subject">coaches</span>
+                            <span class="webinar-subject">managers</span>
+                        </div>
+                        <span class="card-note">To watch the webinar <a href="#">login</a> to your account.</span>
+                    </div>
+                </div>
+                <div class="webinar-card">
+                    <div class="card-img-wrapper">
+                        <img src="./images/webinar15.png" alt="webinar-img">
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">Player's Pathways To Professional Football With Dominic Haynes</h4>
+                        <p class="card-para">
+                            Dominic is a UEFA A licence coach. He runs the Football Coaching & Talent
+                            Development degree at UCFB Wembley Dominic is a UEFA A licence coach. He runs the Football
+                            Coaching & Talent Development degree at UCFB Wembley...
+                        </p>
+                        <a href="#" class="read-btn">Read more</a>
+                        <div class="webinar-subject-row">
+                            <span class="webinar-subject">player development</span>
+                            <span class="webinar-subject">management</span>
+                            <span class="webinar-subject">coaches</span>
+                            <span class="webinar-subject">managers</span>
+                        </div>
+                        <span class="card-note">To watch the webinar <a href="#">login</a> to your account.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> 
+    <!-- our lectures section starts here -->
+     <section class="lectures">
+        <div class="container">
+            <h2 class="secondry-heading">Our Lectures</h2>
+            <div class="lectures-row">
+                <div class="lecture-card">
+                    <div class="card-img-wrapper">
+                        <img src="./images/garrymonk.png" alt="garry monk">
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">Garry Monk</h4>
+                        <span class="card-sub-heading">Premier League manager (Leeds, Swansea, Birmingham, etc.)</span>                        
+                    </div>
+                </div>
+                <div class="lecture-card">
+                    <div class="card-img-wrapper">
+                        <img src="./images/paul.png" alt="Paul Macguinness">
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">Paul Macguinness</h4>
+                        <span class="card-sub-heading">The symbol of Manchester United</span>                        
+                    </div>
+                </div>
+                <div class="lecture-card">
+                    <div class="card-img-wrapper">
+                        <img src="./images/tony.png" alt="Tony Carr">
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">Tony Carr</h4>
+                        <span class="card-sub-heading">The legendary West Ham United academy manager</span>                        
+                    </div>
+                </div>
+                <div class="lecture-card">
+                    <div class="card-img-wrapper">
+                        <img src="./images/peter.png" alt="Peter Sturgess">
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">Peter Sturgess</h4>
+                        <span class="card-sub-heading">One of the England DNA developers</span>                        
+                    </div>
+                </div>
+            </div>
+        </div>
+     </section>
+    <!--  feedback section starts here  -->
+    <section class="feedback">
+        <div class="container">
+            <h2 class="primary-heading">Feedbacks</h2>
+            <div class="feedback-grid">
+                <div class="feedback-card">
+                    <p class="fb-para">
+                        These lectures are beyond any imagination I could think of and are at a crazy level, especially
+                        Kevin Greene's webinar which blew me away!
+                    </p>
+                </div>
+                <div class="feedback-card">
+                    <p class="fb-para">
+                        Each webinar I enjoy and see things in a different and better way.
+                    </p>
+                </div>
+                <div class="feedback-card">
+                    <p class="fb-para">
+                        It was fascinating, the lecture made me think a lot. I noticed that he, like Peter Sturgess,
+                        emphasized the importance of personal technique.
+                    </p>
+                </div>
+                <div class="feedback-card">
+                    <p class="fb-para">
+                        These lectures are beyond any imagination I could think of and are at a crazy level, especially
+                        Kevin Greene's webinar which blew me away!
+                    </p>
+                </div>
+            </div>
+            <div class="feedback-btm-row">
+                <p>Give us feedback after watching webinars</p>
+                <div class="stars-group">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer starts here  -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-top">
+                <a href="#" class="foter-logo"><img src="./images/logo.svg" alt="brand"></a>
+                <div class="contact-info">
+                    <h4 class="footer-col-heading">Contact Info</h4>
+                    <a href="tel:+447897435717" class="footer-link">+447897435717</a>
+                    <a href="mailto:nirlevin@coachnir.com" class="footer-link">nirlevin@coachnir.com</a>
+                </div>
+            </div>
+            <div class="footer-btm">
+                <div class="footer-btm-links">
+                    <a href="#">About</a>
+                    <a href="#">Terms</a>
+                </div>
+                <span class="footer-copy-right">Copyright © 2010-2024 Football Webinar. All rights reserved.</span>
+            </div>
+        </div>
+    </footer>
+    <!-- Scsrpt links her e -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/code.jquery.com_jquery-3.7.1.min.js"></script>
+    <script type="text/javascript" src="js/slick.min.js"></script>
+    <!-- Main js file link here  -->
+    <script src="./js/custom.js"></script>
+</body>
+
+</html>
